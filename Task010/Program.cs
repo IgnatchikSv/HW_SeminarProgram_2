@@ -9,7 +9,4 @@ int numberA = int.Parse(Console.ReadLine()!);
 int digitIndex = 1;
 int digit  = numberA.ToString()[digitIndex] - '0';
 
-Console.WriteLine ($"Вторая цифра введенного числа {digit}");
-
-
-
+Console.WriteLine ($"Вторая цифра этого числа {digit}");
