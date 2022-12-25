@@ -6,7 +6,7 @@ Console.Clear();
 Console.Write ("Введите цифру, обозначающую день недели: ");
 int numberA = int.Parse(Console.ReadLine()!);
 
-if (numberA > 1 && numberA <= 5)
+if (numberA >= 1 && numberA <= 5)
 {
   Console.WriteLine($"Рабочий день");
 }
