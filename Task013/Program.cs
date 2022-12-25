@@ -7,7 +7,7 @@ Console.Write ("Введите число: ");
 int numberA = int.Parse(Console.ReadLine()!);
 int digitIndex = 2;
 
-if ( numberA > 100 && numberA < 1000)
+if ( numberA > 100)
 {
   int digit  = numberA.ToString()[digitIndex] - '0';
   Console.WriteLine ($"Третья цифра этого числа {digit}");
